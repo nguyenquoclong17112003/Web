@@ -411,6 +411,7 @@ html {
   position: absolute;
   right: 0%;
   top: 128%;
+  display: inline-block;
   width: 35%;
   height: 4px;
   border-radius: 5px;
@@ -587,6 +588,7 @@ html {
   position: absolute;
   right: 0%;
   top: 128%;
+  display: inline-block;
   width: 35%;
   height: 4px;
   border-radius: 5px;
@@ -634,4 +636,122 @@ html {
   position: absolute;
   width: 13%;
   top: 55px;
+}
+
+.content__four {
+  background-color: #f6ebda;
+  margin-top: 210px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.content__four-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content__four-about-img {
+  position: absolute;
+  width: 355px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  top: -22%;
+  right: 58%;
+}
+
+.content__four-about-body {
+  margin-left: 45px;
+  margin-top: 80px;
+}
+
+.content__four-about-name {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+}
+.content__four-about-name::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0%;
+  top: 128%;
+  display: inline-block;
+  width: 35%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #ff902b;
+  top: 140%;
+  right: 74%;
+  width: 7%;
+}
+
+.content__four-about-heading {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  margin-top: 22px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.content__four-about-desc {
+  font-size: 1.7rem;
+  color: #858480;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 2.1rem;
+  margin-top: 16px;
+}
+
+.content__four-about-btn {
+  min-width: 170px;
+  height: 46px;
+  border-radius: 33px;
+  outline: none;
+  border: none;
+  background-color: #2f2105;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4ae26;
+  font-weight: 700;
+  margin-top: 31px;
+}
+
+.content__four-img-ps {
+  position: absolute;
+  rotate: 33deg;
+  top: 30%;
+  width: 4%;
+  left: 8%;
+}
+
+.content__four-img-ps2 {
+  position: absolute;
+  rotate: -9deg;
+  top: 50%;
+  width: 3%;
+  left: 45%;
+}
+
+.content__four-img-ps3 {
+  position: absolute;
+  rotate: 13deg;
+  top: 11%;
+  width: 3%;
+  left: 71%;
+}
+
+.content__four-img-ps4 {
+  position: absolute;
+  rotate: 68deg;
+  top: 68%;
+  width: 4%;
+  left: 86%;
 }/*# sourceMappingURL=index.css.map */
